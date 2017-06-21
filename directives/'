@@ -1,0 +1,3 @@
+
+<div class='col-xs-6 col-sm-3 mx-sm-1 mx-xs-1 view' ng-click="update($index)" ng-bind-html="html" >
+</div>

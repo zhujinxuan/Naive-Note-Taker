@@ -1,0 +1,25 @@
+<div class='row'>
+
+  <textarea name='editor' ng-model='parser.md' ng-change='update()' class='col-xs-5 col-sm-4 offset-sm-1' placeholder='edit markdown here'>
+  </textarea>
+
+  <div class='col-xs-5 col-sm-4 preview' ng-bind-html='html'> 
+  </div>
+
+  <div class='col-xs-12 col-sm-10 fullscreen-view hide' ng-bind='html'>
+  </div>
+  
+  <div class='col-xs-12 col-sm-2 icon-btns '>
+    
+    <ul class='list-unstyled'>
+      <li > 
+        <i class="fa fa-plus" aria-hidden="true" ng-click='newNote()'></i>
+      </li>
+      <li > 
+        <i class="fa fa-minus" aria-hidden="true" ng-click='delete()'></i>
+      </li>
+    </ul>
+
+  </div>
+
+</div>
